@@ -9,6 +9,8 @@ body {
 img {
     display: block;
 }
+
+
 ul {
     list-style-type: none;
 }
@@ -16,6 +18,11 @@ ul {
 a {
     text-decoration:none;
 }
+
+.header-main{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-logo {
         color: #4D5AE5;
         font-family:'Raleway', sans-serif;

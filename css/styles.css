@@ -8,6 +8,8 @@ body {
 }
 img {
     display: block;
+    max-width: 100%;
+    height:auto;
 }
 
 
@@ -230,8 +232,9 @@ margin-right: 0;
 }
 
 .our-team-section {
-   background-color: #F4F4FD;
-    padding: 120px 0;
+        background-color: #F4F4FD;
+        padding: 120px 0;
+        
 }
 
 .our-team-header {
@@ -251,12 +254,20 @@ margin-right: 0;
     padding: 32px 0;
 
 }
+.team_list {
+   display: flex;
+    gap: 24px;
+}
 .team-member {
     background-color: #FFFFFF;
-    display: flex;
-    gap: 24px;
+    
+}
 
-
+.div_team {
+    width: 100% - 72px / 4;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+     margin-bottom: 8px;
 }
 .member-header {
     color: #2E2F42;
@@ -266,10 +277,7 @@ margin-right: 0;
     line-height: 1.2;   
     letter-spacing: 0.02em;
     text-align: center;
-    width: 100% - 72px / 4;
-    border-radius: 0px 0px 4px 4px;
-    text-align: center;
-    margin-bottom: 8px;
+    
 
     
 }
@@ -294,10 +302,34 @@ margin-right: 0;
     letter-spacing:0.02em;
     text-transform: capitalize;
     text-align:center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 72px;
+
     
     
 }
 
+.portfolio-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+
+}
+.portfolio_list {
+    width: 84px;
+    border-top: none;
+
+
+}
+.name_div{
+    padding: 32px 16px;
+    margin-bottom: 8px;
+
+
+}
  .portfolio-name {
 
     color: #2e2f42;

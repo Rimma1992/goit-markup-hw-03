@@ -37,8 +37,8 @@ a {
 
 .header_navigation {
     display: flex;
-    align-items: center;
-    margin-right: 76px;
+    align-items:center;
+    margin-right:76px;
 
 
 }
@@ -64,7 +64,8 @@ a {
 .header_menu {
     display: flex;
     gap: 40px;
-    
+    padding-top: 24px;
+   
 }
 
 

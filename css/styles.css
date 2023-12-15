@@ -306,16 +306,16 @@ margin-right: 0;
 
 
 
+
 .box-footer {
     background-color:#2E2F42;
-    padding: 100px 0 100px;
-
+    padding-bottom: 100px;
+margin-bottom: 16px;
+display: inline-block;
 }
-.footer_link {
-    display: inline-block;
-    margin-bottom: 16px;
 
-}
+ 
+
 
 
 .footer-txt {

@@ -272,10 +272,6 @@ overflow: hidden;
 
 }
 
-.team_position{
-    padding: 32px 0;
-
-}
 .team_list {
    display: flex;
    flex-direction: row;

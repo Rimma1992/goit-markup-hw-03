@@ -40,6 +40,8 @@ a {
     align-items:center;
     margin-right:76px;
     display: flex;
+    gap: 40px;
+   padding: 24px 0 24px;
 
 }
 
@@ -65,8 +67,6 @@ a {
 
 .header_menu {
     display: flex;
-    gap: 40px;
-    padding: 24px 0 24px;
     
    
 }

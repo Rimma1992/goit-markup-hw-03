@@ -221,6 +221,7 @@ overflow: hidden;
     align-items: flex-start;
     gap:8px;
     width: calc((100% - 72px) / 4);
+    padding-left: 0;
 
 
 }
@@ -293,6 +294,7 @@ overflow: hidden;
     align-items: center;
     gap:32px;
     width: calc((100% - 72px) / 4);
+    padding-left: 0;
 
 
 }

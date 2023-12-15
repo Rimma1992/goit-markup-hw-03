@@ -180,7 +180,7 @@ margin-right: 0;
 .button:hover,
 .button:focus {
     background-color: #404bbf;
-    padding: 120px 0 120px;
+ 
 }
 
 
@@ -190,18 +190,28 @@ margin-right: 0;
    
   
 }
+.visually-hidden {
+position: absolute;
+width:1px;
+height: 1px;
+margin:1px;
+border:0;
+padding:0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip:rect(0 0 0 0);
+overflow: hidden;
+
+}
 
 .section_menu_2 {
     display: flex;
     gap: 24px;
 
 }
-.visually-hidden {
-    visibility: hidden;
-}
 
 .description-list{
-    width: 100% - 72px / 4;
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -361,6 +371,9 @@ margin-right: 0;
     padding-bottom: 100px;
     padding: 100px 0 100px;
     display: inline-block;
+    width: 1440px;
+     height: 312px;
+      top: 2988px;
 }
 
  

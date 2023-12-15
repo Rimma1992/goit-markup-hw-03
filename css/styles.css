@@ -305,6 +305,7 @@ margin-right: 0;
     padding-top: 120px;
     padding-bottom: 120px;
     margin-bottom: 72px;
+    
 
     
     
@@ -321,12 +322,13 @@ margin-right: 0;
 .portfolio_list {
     width: 84px;
     border-top: none;
+    border: 1px solid #e7e9fc;
 
 
 }
 .name_div{
     padding: 32px 16px;
-    margin-bottom: 8px;
+   
 
 
 }
@@ -338,6 +340,7 @@ margin-right: 0;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
   
 }
 .portfolio-txt {

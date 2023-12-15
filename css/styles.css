@@ -26,17 +26,17 @@ a {
     
 }
 
-.header-container {
+.container {
     max-width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: ;
-    margin-left: ;
+    display: flex;
+
 }
 
 .header_navigation {
-    display: flex;
+  
     align-items:center;
     margin-right:76px;
 
@@ -55,6 +55,8 @@ a {
         letter-spacing: 0.03em;
         text-align: left;
         text-transform: uppercase;
+        margin-right: 76px;
+
 }     
 
 .header-logo-part {

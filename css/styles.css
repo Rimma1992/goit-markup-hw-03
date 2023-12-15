@@ -186,7 +186,22 @@ margin-right: 0;
 
 .section_2{  
     visibility:hidden;
+    padding: 120px 0;
+
 }
+.section_menu_2 {
+    display: flex;
+    gap: 24px;
+
+}
+
+.description-list-1{
+    width: 100% - 72px / 4;
+}
+.description-list-2
+.description-list-3
+.description-list-4
+
 
 .description-list-head {
         color: #2e2f42;
@@ -197,6 +212,8 @@ margin-right: 0;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: left;
+        margin-bottom: 8px;
+
         
         
 }

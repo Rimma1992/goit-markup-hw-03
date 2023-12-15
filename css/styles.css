@@ -170,6 +170,7 @@ margin-right: 0;
         cursor: pointer;
         display: block;
         min-width: 169px;
+        height: 56px;
         border: none;
         background-color:#4d5ae5;
         border-radius: 4px;

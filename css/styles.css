@@ -44,7 +44,6 @@ a {
 
 .header_navigation {
     display: flex;
-    background-color:aquamarine;
     align-items: center;
     
     
@@ -267,20 +266,15 @@ overflow: hidden;
 .section_three{
         background-color: #F4F4FD;
         text-align: center;
-        padding: 120px 0;
         width: 1440px;
-        
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
-.section_three-container  {
-  display: flex;
-  flex-direction: column;
- align-items: center;
 
-}
 
 .our-team-header {
-    display: inline;
+   
     text-align: center;
     color: #2e2f42;
     font-family: 'Roboto', sans-serif;
@@ -288,10 +282,8 @@ overflow: hidden;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02em;  
-    text-transform: capitalize;
     margin-bottom: 72px;
     font-style: normal;
-    width: 218px;
 
 }
 
@@ -314,7 +306,6 @@ overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:32px;
     width: calc((100% - 72px) / 4);
     padding-left: 0;
 
@@ -324,7 +315,8 @@ overflow: hidden;
 .div_team {
     background-color: #FFFFFF;
     width: 100% - 72px / 4;
-     margin-bottom: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .member-header {
     color: #2E2F42;
@@ -334,6 +326,7 @@ overflow: hidden;
     line-height: 1.2;   
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     
 }
 
@@ -351,6 +344,8 @@ overflow: hidden;
 
 .section-four {
   width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio {
@@ -361,6 +356,7 @@ overflow: hidden;
     letter-spacing:0.02em;
     text-transform: capitalize;
     text-align:center;
+    margin-bottom: 72px;
     
    
    
@@ -378,10 +374,8 @@ overflow: hidden;
     row-gap: 48px;
     padding-left: 0;
     margin: 0;
-    padding-top: 72px;
-    margin-bottom: 120px ;
-   
-   
+ 
+    
 
 
 }
@@ -392,7 +386,6 @@ overflow: hidden;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
-    gap:32px;
     flex-shrink:0;
 
 
@@ -404,6 +397,8 @@ overflow: hidden;
     width: 360px ;
     height: auto;
     flex-direction: column;
+    padding: 32px 16px;
+    border-top: none;
     
  
 
@@ -419,8 +414,7 @@ overflow: hidden;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-left: 16px;
-    margin-bottom: 8px;
+  
    
   
 }
@@ -431,7 +425,7 @@ overflow: hidden;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-left: 16px;
+
 }
 
 

@@ -144,15 +144,11 @@ margin-top: 24px;
     background-color:#2E2F42; 
     width: 1440px;
     height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+   
 
 }
-
-
-
-
-
-
-
 
 
 .main-basis {
@@ -163,9 +159,9 @@ margin-top: 24px;
     letter-spacing: 0.02em;
     text-align: center;
     height: 120px;
-    margin-top: 0px;
-    padding: 188px 0;
     max-width: 496px;
+    margin: auto;
+    margin-bottom:48px;
    
   
     

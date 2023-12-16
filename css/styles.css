@@ -24,16 +24,21 @@ a {
 .header-main{
     
     border-bottom: 1px solid #e7e9fc;
-    
-    
-    
+    width: 1440px;
+
 }
 
-.container {
+.container_header {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /*display: flex;*/
 }
 
 .header_navigation {
@@ -44,17 +49,17 @@ a {
 
 
 .header-logo {
-        color: #4D5AE5;
-        font-family:'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-align: left;
-        text-transform: uppercase;
-        margin-top: 25.5px;
-        margin-right: 76px;
-        
+    color: #4D5AE5;
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 76px;
+
 }     
 
 .header-logo-part {
@@ -64,11 +69,8 @@ a {
 .header_menu {   
     display: flex;
     gap: 40px; 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin-right: 250px;
     
-   
-
 }
 
 
@@ -90,15 +92,16 @@ a {
   
 
 .contacts {
-
 font-style: normal;
+
+
 
 }
 
 .section-contacts {
 display: flex;
-
 gap: 40px;
+
 
 }
 
@@ -125,28 +128,39 @@ gap: 40px;
 
 .color-box {
     background-color:#2E2F42; 
-    padding-top: 188px;
-    padding-bottom: 0px;
-    padding-left: 472px;
-    
+    width: 1440px;
+    height: 600px;
+
+}
+.container_color_box {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
 }
 
 
 
 
 .main-basis {
-        color:#FFFFFF;
-        font-family:'Roboto', sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-        text-align: center;
-        width: 496px;
-        height: 120px;
-        }
+    color:#FFFFFF;
+    font-family:'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 496px;
+    height: 120px;
+    margin-top: 188px;
+    margin-bottom: 48px;
+   
+    
+}
 
 
 .button {
+    
         background-color: #4D5AE5;
         color:#FFFFFF;
         font-family: 'Roboto', sans-serif;
@@ -154,15 +168,15 @@ gap: 40px;
         font-weight: 500;
         line-height:1.5;        
         letter-spacing: 0.04em;
+        border-radius: 4px;
+        background: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         cursor: pointer;
         display: block;
-        min-width: 169px;
+        width: 169px;
         height: 56px;
         border: none;
-        background-color:#4d5ae5;
-        border-radius: 4px;
-        margin-top: 48px;
-        
+             
 
 }
 .button:hover,
@@ -175,13 +189,17 @@ gap: 40px;
 
 
 .section-two { 
-
-    background-color: #F4F4FD;
+    width: 1440px;
+    background: #FFF;
     padding: 120px 0;
-    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   
+}
+.container_section_two{
+width: 1128px;
+
+   
 }
 .visually-hidden {
 position: absolute;
@@ -203,6 +221,7 @@ overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  padding-left: 156px;
 
 }
 

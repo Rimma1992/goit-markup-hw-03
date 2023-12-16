@@ -34,19 +34,15 @@ a {
     padding: 0 15px;
 }
 
-.container_header {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-}
-
 
 
 .header_navigation {
     display: flex;
     align-items: center;
     
+}
+.logo_header {
+    margin-right: 76px;
 }
 
 

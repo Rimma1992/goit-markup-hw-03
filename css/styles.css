@@ -141,7 +141,7 @@ display: flex;
 flex-direction: column;
 background-color: green;
 justify-content: center;
-
+margin: auto;
 
 
 
@@ -162,6 +162,7 @@ justify-content: center;
     margin-top: 0px;
     padding: 188px 0;
     max-width: 496px;
+   
   
     
 }
@@ -185,6 +186,7 @@ justify-content: center;
         height: 56px;
         border: none;
         min-width: 169px;
+        margin: auto;
 
 }
 .button:hover,
@@ -449,6 +451,7 @@ background-color: #4d5ae5;
 .container_footer {
     display: flex;
     flex-direction: column;
+   
 }
 
 

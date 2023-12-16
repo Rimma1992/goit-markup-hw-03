@@ -279,8 +279,13 @@ overflow: hidden;
         padding: 120px 0;
         width: 1440px;
         
+}
 
-        
+.section_three-container  {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+
 }
 
 .our-team-header {
@@ -296,7 +301,7 @@ overflow: hidden;
     margin-bottom: 72px;
     font-style: normal;
     width: 218px;
-background-color: #4d5ae5;
+
 }
 
 .team_list {
@@ -455,7 +460,7 @@ background-color: #4d5ae5;
 
 
 .footer-txt {
-        display: inline-block;
+       
         color:#F4F4FD;
         font-family: 'Roboto',sans-serif;
         font-size: 16px;
@@ -479,7 +484,7 @@ font-family:"Raleway",sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-   
+    
    
    
     

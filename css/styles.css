@@ -34,25 +34,12 @@ a {
 
 }
 
-.top-sidebar_container{
-        width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
-        display: flex;
-}
-/*
-.container {
+.container{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-        
+    /*display: flex;*/
 }
-*/
-
-/*
-.header-container{
-    display:flex;
-}*/
 
 
 .header_navigation {
@@ -159,16 +146,11 @@ margin-top: 24px;
     height: 600px;
 
 }
-.container_color_box {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin: auto;
 
 
 
 
-}
+
 
 
 

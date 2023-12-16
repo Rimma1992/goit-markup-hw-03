@@ -201,16 +201,11 @@ margin-top: 24px;
 .section-two { 
     width: 1440px;
     background: #FFF;
-    padding: 120px 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   
 }
-.container_section_two{
 
-
-   
-}
 .visually-hidden {
 position: absolute;
 width:1px;
@@ -222,7 +217,6 @@ white-space: nowrap;
 clip-path: inset(100%);
 clip:rect(0 0 0 0);
 overflow: hidden;
-
 }
 
 .section_menu_2 {

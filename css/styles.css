@@ -37,6 +37,7 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
     
 }
 
@@ -47,6 +48,7 @@ a {
 
 .header_navigation {
     display: flex;
+    background-color:aquamarine;
     
     
 }
@@ -75,9 +77,10 @@ a {
 .header_menu {   
     display: flex;
     gap: 40px; 
-    margin-right: 250px;
+    margin-right: 332px;
     padding-top: 24px;
     padding-bottom: 24px;
+    
     
 }
 
@@ -103,15 +106,18 @@ a {
   
 
 .contacts {
-font-style: normal;
-
-
-
+    display: block;
+    padding-right: 0px;
+    font-style: normal;
+    background-color:#4D5AE5;
 }
 
 .section-contacts {
 display: flex;
 gap: 40px;
+margin-top: 24px;
+
+
 
 
 }
@@ -370,7 +376,6 @@ overflow: hidden;
 }
 
 .portfolio {
-   
     font-size: 36px;
     line-height: 1.11; 
     font-family:'Roboto',sans-serif;
@@ -378,6 +383,7 @@ overflow: hidden;
     letter-spacing:0.02em;
     text-transform: capitalize;
     text-align:center;
+    
    
    
   

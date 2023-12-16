@@ -38,7 +38,7 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    /*display: flex;*/
+    
 }
 
 
@@ -195,9 +195,6 @@ margin-top: 24px;
  
 }
 
-
-
-
 .section-two { 
     width: 1440px;
     background: #FFF;
@@ -205,7 +202,6 @@ margin-top: 24px;
     padding-bottom: 120px;
   
 }
-
 .visually-hidden {
 position: absolute;
 width:1px;
@@ -410,18 +406,6 @@ overflow: hidden;
     flex-direction: column;
     
  
-
-
-
-
-/*
-    padding: 32px 16px;
-    align-items: flex-start;
-    
-    align-self:stretch;
-    padding: 32px 16 px;
-    */
-
 
    
 

@@ -27,10 +27,10 @@ a {
 }
 
 .header-main{
-    
-    border-bottom: 1px solid #e7e9fc;
     width: 1440px;
-    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    
+    
 
 }
 
@@ -442,11 +442,7 @@ overflow: hidden;
     padding: 100px 0 100px;
     
 }
-.container_footer {
-    display: flex;
-    flex-direction: column;
-   
-}
+
 
 
 .footer-txt {
@@ -482,7 +478,6 @@ font-family:"Raleway",sans-serif;
 }
 .footer-logo-part {
     color: #F4F4FD;
-    display: inline-block;
     font-family:"Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;

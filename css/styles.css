@@ -33,7 +33,7 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-
+display: flex;
 }
 
 .header_navigation {
@@ -52,6 +52,7 @@ a {
         text-align: left;
         text-transform: uppercase;
         margin-top: 25.5px;
+        margin-right: 76px;
         
 }     
 
@@ -61,8 +62,7 @@ a {
 
 .header_menu {   
     display: flex;
-    margin-left: 76px;
-    gap: 40px; 
+        gap: 40px; 
     margin-top: 24px;
     
    

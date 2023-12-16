@@ -34,13 +34,20 @@ a {
 
 }
 
+.top-sidebar_container{
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+}
+/*
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    
+        
 }
+*/
 
 /*
 .header-container{
@@ -109,8 +116,8 @@ a {
   
 
 .contacts {
-    display: block;
-    padding-right: 0px;
+    
+    
     font-style: normal;
     background-color:#4D5AE5;
 }

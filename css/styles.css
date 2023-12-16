@@ -30,6 +30,7 @@ a {
     
     border-bottom: 1px solid #e7e9fc;
     width: 1440px;
+    display: flex;
 
 }
 
@@ -37,13 +38,14 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
+    
     
 }
 
+/*
 .header-container{
     display:flex;
-}
+}*/
 
 
 .header_navigation {

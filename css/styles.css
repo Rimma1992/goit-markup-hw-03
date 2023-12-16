@@ -38,7 +38,7 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    
+    display: flex;
     
 }
 
@@ -51,6 +51,7 @@ a {
 .header_navigation {
     display: flex;
     background-color:aquamarine;
+    align-items: center;
     
     
 }

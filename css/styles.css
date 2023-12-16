@@ -33,11 +33,12 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-display: flex;
+    /*display: flex;*/
 }
 
 .header_navigation {
     display: flex;
+    align-items: center;
     
 }
 
@@ -62,7 +63,7 @@ display: flex;
 
 .header_menu {   
     display: flex;
-        gap: 40px; 
+    gap: 40px; 
     margin-top: 24px;
     
    
@@ -126,6 +127,7 @@ gap: 40px;
     padding-top: 188px;
     padding-bottom: 0px;
     padding-left: 472px;
+    
 }
 
 
@@ -159,7 +161,7 @@ gap: 40px;
         background-color:#4d5ae5;
         border-radius: 4px;
         margin-top: 48px;
-        margin-left: 636px;
+        
 
 }
 .button:hover,
